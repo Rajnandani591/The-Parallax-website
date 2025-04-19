@@ -1,0 +1,66 @@
+html,body{
+height : 100%;
+margin: 0;
+font-family: "Lato", sans-sarif;
+font-weight: 400;
+line-height: 1.8em;
+color: #666;
+}
+.pimag1{
+    background-image: url(image/nature.jpg);
+    min-height: 100%;
+}
+.pimag2{
+    background-image:url(image/Best-Beautiful-Images-For-Desktop-Nature.png);
+    min-height : 400px;
+}
+.pimag4{
+    background-image: url(image/Best-Beautiful-Images-For-Desktop-Nature.png);
+    min-height: 500px;
+    
+}
+.pimag3{
+    background-image: url(image/wp2665214.jpg);
+    min-height: 600px;
+}
+.pimag1, .pimag2, .pimag3, .pimag4{
+position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.ptext1,.ptext2, .ptext3, .ptext4{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center ;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+
+}
+.imag1, .imag2, .imag3, .imag4{
+    background: rgb(133, 71, 71);
+    color: #fff;
+    padding: 20px;
+}
+h2{
+    color: rgb(24, 22, 22);
+    text-decoration: underline;
+}
+.sec_2, .sec_3, .sec_4{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: antiquewhite;
+    color:gray;
+}
+.sec_5{
+    padding: 50px 80px;
+    text-align: center;
+    background-color: rgb(143, 187, 192);
+    color:rgb(4, 70, 26);
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
